@@ -1,8 +1,10 @@
+/* CSS reset code */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+/* End of CSS reset code */
 body {
 background: url("../images/stripes.png") repeat-x, url("../images/background.jpg") no-repeat;
 background-size: auto, cover;
@@ -23,5 +25,5 @@ width: 45px;
 margin: 45px 0 0 0;
 }
 a {
-
+/* Not sure how I'm supposed to style the anchor tag when it uses an image as button in this context. What needs to be styled? */
 }
