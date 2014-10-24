@@ -15,14 +15,13 @@ color: #ffffff;
 height: auto;
 width: auto;
 padding: 0;
-margin: 345px 0 0 150px;
+margin: 340px 0 0 150px;
 font-weight: normal;
-line-height: 50px;
+line-height: 100px;
 }
 hr {
 border: 1px solid #fd6e6e;
 width: 45px;
-margin: 45px 0 0 0;
 }
 a {
 /* Not sure how I'm supposed to style the anchor tag as the image/button used to link seems to appear correctly? */
