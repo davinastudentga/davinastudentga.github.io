@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-* + * { margin-top: 10px; }
+* + * { margin: 10px 0 0 0; }
 /* End of CSS reset code */
 body {
 	background: url("../images/stripes.png") repeat-x, url("../images/background.jpg") no-repeat;
@@ -26,3 +26,4 @@ hr {
 	border: 1px solid #fd6e6e;
 	width: 45px;
 }
+img { margin:10px 0 0 0;}
