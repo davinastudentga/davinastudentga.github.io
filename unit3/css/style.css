@@ -6,23 +6,22 @@
 }
 /* End of CSS reset code */
 body {
-background: url("../images/stripes.png") repeat-x, url("../images/background.jpg") no-repeat;
-background-size: auto, cover;
-background-color: #52596b;
-font-size: 26px;
-font-family: Helvetica, Arial, sans-serif;
-color: #ffffff;
-height: auto;
-width: auto;
-padding: 0;
-margin: 340px 0 0 150px;
-font-weight: normal;
-line-height: 100px;
+	background: url("../images/stripes.png") repeat-x, url("../images/background.jpg") no-repeat;
+	background-color: #52596b;
+	background-size: auto, cover;
+	color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 1.62em;
+	/*height: auto;
+	width: auto;*/
+	padding: 0;
+}
+section{
+	margin: 340px 0 0 150px;
 }
 hr {
-border: 1px solid #fd6e6e;
-width: 45px;
-}
-a {
-/* Not sure how I'm supposed to style the anchor tag as the image/button used to link seems to appear correctly? */
+	border: 1px solid #fd6e6e;
+	width: 45px;
 }
