@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+* + * { margin-top: 10px; }
 /* End of CSS reset code */
 body {
 	background: url("../images/stripes.png") repeat-x, url("../images/background.jpg") no-repeat;
