@@ -154,6 +154,71 @@ input[type="submit"] {
 footer#pageFooter {
 	background-color: #272727;
 	clear: both;
+	margin-top: 20px;
+	padding: 5px 150px;
+	text-align: center;
+}
+p#contact {
+	color: #817c7a;
+	font-family: 'Tinos', Times, serif;
+	font-size: 11px;
+	letter-spacing: .1em;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 2px;
+}
+p#contact a {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#contact a:link {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#contact a:visited {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#contact a:hover {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#contact a:active {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#copyright {
+	color: #817c7a;
+	font-family: 'Tinos', Times, serif;
+	font-size: 11px;
+	letter-spacing: .1em;
+	text-align: center;
+	word-spacing: 2px;
+}
+p#copyright a {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#copyright a:link {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#copyright a:visited {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#copyright a:hover {
+	color: #817c7a;
+	text-decoration: underline;
+}
+p#copyright a:active {
+	color: #817c7a;
+	text-decoration: underline;
+}
+/* Old footer */
+footer#pageFooter {
+	background-color: #272727;
+	clear: both;
 	color: #817c7a;
 	font-family: 'Tinos', Times, serif;
 	font-size: 11px;
@@ -183,3 +248,4 @@ footer#pageFooter a:active {
 	color: #817c7a;
 	text-decoration: underline;
 }
+/* */
