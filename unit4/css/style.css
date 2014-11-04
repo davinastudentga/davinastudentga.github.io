@@ -54,7 +54,7 @@ h2 {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-h3 {
+span#tagline {
 	color: #3e3c3c;
 	font-family: "Century Schoolbook", "Century Gothic", Century, sans-serif;
 	font-size: 18px;
