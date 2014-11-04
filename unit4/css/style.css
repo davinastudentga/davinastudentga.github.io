@@ -114,6 +114,7 @@ input[type="text"] {
 }
 input[type="submit"] {
 	background-color: #272727;
+	border: thin solid #272727;
 	border: none;
 	color: #ffffff;
 	font-weight: normal;
@@ -124,8 +125,9 @@ input[type="submit"] {
 }
 #makeareservation {
 	background-color: #272727;
+	border: thin solid #272727;
 	color: #ffffff;
-	font-family: 'Noto Sans', Century, sans-serif;
+	font-family: 'Noto Sans', "Century Gothic", Century, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	letter-spacing: .1em;
@@ -135,7 +137,7 @@ input[type="submit"] {
 	text-transform: uppercase;
 	width: 330px;
 }
-#makeareservation a{
+#makeareservation a {
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -160,7 +162,7 @@ footer#pageFooter {
 }
 p#contact {
 	color: #817c7a;
-	font-family: 'Tinos', Times, serif;
+	font-family: 'Tinos', "Times New Roman", Times, serif;
 	font-size: 11px;
 	letter-spacing: .1em;
 	text-align: center;
@@ -189,7 +191,7 @@ p#contact a:active {
 }
 p#copyright {
 	color: #817c7a;
-	font-family: 'Tinos', Times, serif;
+	font-family: 'Tinos', "Times New Roman", Times, serif;
 	font-size: 11px;
 	letter-spacing: .1em;
 	text-align: center;
