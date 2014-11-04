@@ -40,6 +40,9 @@ h1 {
 	clear: right;
 	text-align: center;
 }
+img {
+	width: 200px;
+}
 section#pageIntroduction {
 	background-color: #ffffff;
 	margin: 70px auto 20px auto;
