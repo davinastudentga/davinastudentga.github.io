@@ -107,14 +107,14 @@ input {
 }
 input[type="text"] {
 	background-color: #ffffff;
-	border: thin solid #272727;
+	border: thin solid #3e3c3c;
 	color: #817c7a;
 	text-align: left;
 	width: 250px;
 }
 input[type="submit"] {
-	background-color: #272727;
-	border: thin solid #272727;
+	background-color: #3e3c3c;
+	border: thin solid #3e3c3c;
 	border: none;
 	color: #ffffff;
 	font-weight: normal;
@@ -124,8 +124,8 @@ input[type="submit"] {
 	width: auto;
 }
 #makeareservation {
-	background-color: #272727;
-	border: thin solid #272727;
+	background-color: #3e3c3c;
+	border: thin solid #3e3c3c;
 	color: #ffffff;
 	font-family: 'Noto Sans', "Century Gothic", Century, sans-serif;
 	font-size: 12px;
