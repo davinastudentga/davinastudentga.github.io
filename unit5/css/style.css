@@ -1,0 +1,97 @@
+/* CSS Reset Code */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* End of CSS Reset Code */
+*+* {
+	margin-top: 10px;
+}
+body {
+	background-color: #f5f5f5;
+	border: 3px solid #ffffff;
+	color: #3e3c3c;
+	display: block;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.62em;
+	margin: 40px;
+	padding: 40px;
+}
+p a {
+	color: #ff0000;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+p a:link {
+	text-decoration: underline;
+}
+p a:visited {
+	text-decoration: underline;
+}
+p a:hover {
+	text-decoration: none;
+}
+p a:active {
+	text-decoration: underline;
+}
+#wrapper {
+	display: block;
+}
+header#pageHeader {
+	display: block;
+}
+main {
+	background-color: #ffffff;
+	display: block;
+	margin: 40px 0 0 300px;
+	padding: 0 40px 40px 40px;
+	width: 765px;
+}
+h1, h2, h3, h4 {
+	font-family: "Century Gothic", Century, sans-serif;
+}
+h1 {
+	color: #272727;
+	font-size: 42px;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 28px;
+	padding: 40px 0 10px 0;
+	text-decoration: underline;
+}
+h3 {
+	font-size: 19px;
+	margin-top: 25px;
+}
+h4 {
+	font-size: 16px;
+	text-decoration: underline;
+}
+ul {
+	padding-left: 40px;
+}
+ul li {
+	font-weight: bold;
+}
+ul.imageList {
+	list-style: none;
+	margin: 20px 0 0 -5px;
+	padding: 0;
+}
+img {
+	width: 700px;
+}
+figure {
+	line-height: .5em;
+}
+figcaption {
+	display: block;
+	font-style: italic;
+}
