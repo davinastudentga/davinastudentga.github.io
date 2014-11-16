@@ -45,8 +45,17 @@ p a:active {
 header#pageHeader {
 	display: block;
 }
+#pageTitle {
+	display: inline;
+	float: left;
+}
+#downloadZipFile {
+	display: inline;
+	float: right;
+}
 main {
 	background-color: #ffffff;
+	clear: both;
 	display: block;
 	margin: 40px 0 0 300px;
 	padding: 0 40px 40px 40px;
@@ -79,6 +88,9 @@ ul {
 }
 ul li {
 	font-weight: bold;
+}
+ul li p {
+	font-weight: normal;
 }
 ul.imageList {
 	list-style: none;
