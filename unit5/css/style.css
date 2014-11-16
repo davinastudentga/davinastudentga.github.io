@@ -1,3 +1,7 @@
+/* Site validation by W3C */
+ CSS passed 
+ /* End of site validation */
+
 /* CSS Reset Code */
 * {
 	margin: 0;
@@ -44,7 +48,7 @@ p a:active {
 }
 header#pageHeader {
 	display: block;
-	height: auto;
+	height: 200px;
 	margin-bottom: 40px;
 }
 #pageTitle {
