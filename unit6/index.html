@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Front-end Web Development & Web Design | New York City</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta charset="UTF-8">
+	<!-- Site validation by W3C: HTML... to check -->
+</head>
+
+<body>
+<div id="wrapper">
+	<header id="pageHeader">
+		<nav id="pageNavigation">
+			<ul id="pageMenu" class="clearfix">
+				<li id="pageLogo"><a href="index.html">Davina Mulimbi</a></li>
+				<li id="pageMenuContact"><a href="#contact">Have a digital project?</a></li>
+				<li class="pageMenuList"><a href="#projects">Projects</a></li>
+				<li class="pageMenuList"><a href="#services">Services</a></li>
+				<li class="pageMenuList"><a href="#about">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div id="aboveTheFold">
+		</div>
+		<div id="about">
+			<section id="aboutSection">
+				<h1>About</h1>
+				<p>Welcome. My name is <strong>Davina Mulimbi</strong>. I was born and raised in Belgium and I'm currently based in <strong>New York City</strong>. Above all I'm a self-taught <strong>front-end web developer and designer</strong>, but I have also been taking courses with General Assembly. As I keep learning, <strong>I'm also welcoming projects. I am available for freelance work!</strong></p>
+			</section>
+		</div>
+
+		<div id="services">
+			<h1>Services</h1>
+			<p>Front-end Web Development/Web Design</p>
+			<ul id="skillsList" class="clearfix">
+				<li class="skills">HTML5</li>
+				<li class="skills">CSS3</li>
+				<li class="skills">Responsive Design</li>
+			</ul>
+		</div>
+
+		<div id="projects">
+			<h1>Projects</h1>
+			<p>This site has been built responsively with HTML5 and CSS3 to provide optimal experience across devices, from desktop to smartphones.</p>
+		</div>
+
+		<div id="contact" class="clearfix">
+			<h1>Contact</h1>
+			<!-- CONTACT FORM
+			<p>Have a digital project? I'd love to hear your idea. Please fill the form below, and I'd get back to you as soon as possible. Or you can send me an email at <a href="mailto:info@davinamulimbi.com" target="_blank">info@davinamulimbi.com</a>.</p>
+			<p>I'm available for freelance work.</p>
+			<form id="contactForm">
+				<p class="inputBox"><input type="text" placeholder="First name">
+				<input type="text" placeholder="Last name">
+				<input type="text" placeholder="Email"></p>
+				<p id="inputBoxMessage"><input type="text" placeholder="Enter your idea"></p>
+				<p class="inputBox"><input type="submit" value="Submit project"></p>
+			</form>
+			-->
+			
+			<div id="contactProfileImage">
+				<img src="images/davinaProfileImage.png" alt="Black and white profile image of Davina Mulimbi">
+			</div>
+
+
+			<div id="wufooContactForm">
+				<div id="wufoo-z16os9601o23cq3">
+				Fill out my <a href="https://studentga.wufoo.com/forms/z16os9601o23cq3">online form</a>.
+				</div>
+				<!-- Sorry Wuffo don't want this on my site... I might have to check your policies first though... <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div> -->
+				<script type="text/javascript">var z16os9601o23cq3;(function(d, t) {
+				var s = d.createElement(t), options = {
+				'userName':'studentga',
+				'formHash':'z16os9601o23cq3',
+				'autoResize':true,
+				'height':'517',
+				'async':true,
+				'host':'wufoo.com',
+				'header':'show',
+				'ssl':true};
+				s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+				s.onload = s.onreadystatechange = function() {
+				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+				try { z16os9601o23cq3 = new WufooForm();z16os9601o23cq3.initialize(options);z16os9601o23cq3.display(); } catch (e) {}};
+				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+				})(document, 'script');</script>	
+			</div>
+		</div>
+
+		<div id="backToTop">
+		<p id="buttonToTop"><a href="#wrapper">Back To Top &#8593</a></p>
+		</div>
+	</main>
+
+	<footer id="pageFooter">
+		<ul id="copyrightCredits" class="clearfix">
+			<li id="copyrightLeft">&#169; 2014 Davina Mulimbi. All rights reserved.</li>
+			<li id="creditsRight">Site by Davina Mulimbi</li>
+			<!-- This worked too to clear float and show background color: <div style="clear: both;"></div> but used class="clearfix" as I floated more elements on page -->
+		</ul>
+	</footer>
+</div>
+</body>
+
+</html>
