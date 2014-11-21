@@ -24,41 +24,6 @@ body {
 	margin: 40px;
 	padding: 40px;
 }
-p a {
-	color: #ff0000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
-	font-weight: normal;
-	text-decoration: underline;
-}
-p a:link {
-	text-decoration: underline;
-}
-p a:visited {
-	text-decoration: underline;
-}
-p a:hover {
-	text-decoration: none;
-}
-p a:active {
-	text-decoration: underline;
-}
-#wrapper {
-	display: block;
-}
-header#pageHeader {
-	display: block;
-	height: 200px;
-	margin-bottom: 40px;
-}
-#pageTitle {
-	display: inline;
-	float: left;
-}
-#downloadZipFile {
-	display: inline;
-	float: right;
-}
 main {
 	background-color: #ffffff;
 	clear: both;
@@ -112,4 +77,42 @@ figure {
 figcaption {
 	display: block;
 	font-style: italic;
+}
+p a {
+	color: #ff0000;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+p a:link {
+	text-decoration: underline;
+}
+p a:visited {
+	text-decoration: underline;
+}
+p a:hover {
+	text-decoration: none;
+}
+p a:active {
+	text-decoration: underline;
+}
+#wrapper {
+	display: block;
+}
+header#pageHeader {
+	display: block;
+	height: 200px;
+	margin-bottom: 40px;
+}
+#pageTitle {
+	display: inline;
+	float: left;
+}
+#downloadZipFile {
+	display: inline;
+	float: right;
+}
+.underline {
+	text-decoration:underline;
 }
