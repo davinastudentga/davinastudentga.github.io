@@ -2,20 +2,20 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
 	<title>Front-end Web Development & Web Design | New York City</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 	<!-- Site validation by W3C: HTML... to check -->
 </head>
 
 <body>
-<div id="wrapper">
 	<header id="pageHeader">
-		<nav id="pageNavigation">
+		<nav id="stickyPageNav">
 			<ul id="pageMenu" class="clearfix">
-				<li id="pageLogo"><a href="index.html">Davina Mulimbi</a></li>
-				<li id="pageMenuContact"><a href="#contact">Have a digital project?</a></li>
+				<li class="pageLogo"><a href="index.html"><img class="logoImg" src="images/logoDavinaMulimbiWhite.png" alt="Wordmark logo of Davina Mulimbi"></a></li>
+				<li class="pageMenuContact"><a href="#contact">Have a digital project?</a></li>
 				<li class="pageMenuList"><a href="#projects">Projects</a></li>
 				<li class="pageMenuList"><a href="#services">Services</a></li>
 				<li class="pageMenuList"><a href="#about">About</a></li>
@@ -24,50 +24,38 @@
 	</header>
 
 	<main>
-		<div id="aboveTheFold">
-		</div>
-		<div id="about">
-			<section id="aboutSection">
-				<h1>About</h1>
-				<p>Welcome. My name is <strong>Davina Mulimbi</strong>. I was born and raised in Belgium and I'm currently based in <strong>New York City</strong>. Above all I'm a self-taught <strong>front-end web developer and designer</strong>, but I have also been taking courses with General Assembly. As I keep learning, <strong>I'm also welcoming projects. I am available for freelance work!</strong></p>
-			</section>
-		</div>
+		<section id="aboveTheFold">
+		</section>
 
-		<div id="services">
+		<section id="about" class="clearfix">
+			<div class="aboutSection">
+				<h1>About</h1>
+				<div class="aboutProfileImage">
+					<img src="images/davinaProfileImage.png" alt="Black and white profile image of Davina Mulimbi">
+				</div>
+				<p class="textAbout">Welcome. My name is <strong>Davina Mulimbi</strong>. I was born and raised in Belgium and I'm currently based in <strong>New York City</strong>. Above all I'm a self-taught <strong>front-end web developer and designer</strong>, but I have also been taking courses with General Assembly. As I keep learning, <strong>I'm also welcoming projects. I am available for freelance work!</strong></p>
+			</div>
+		</section>
+
+		<section id="services" class="clearfix">
 			<h1>Services</h1>
 			<p>Front-end Web Development/Web Design</p>
-			<ul id="skillsList" class="clearfix">
+			<ul id="skillsList">
 				<li class="skills">HTML5</li>
 				<li class="skills">CSS3</li>
 				<li class="skills">Responsive Design</li>
 			</ul>
-		</div>
+		</section>
 
-		<div id="projects">
+		<section id="projects">
 			<h1>Projects</h1>
 			<p>This site has been built responsively with HTML5 and CSS3 to provide optimal experience across devices, from desktop to smartphones.</p>
-		</div>
+		</section>
 
-		<div id="contact" class="clearfix">
+		<section id="contact">
 			<h1>Contact</h1>
-			<!-- CONTACT FORM
-			<p>Have a digital project? I'd love to hear your idea. Please fill the form below, and I'd get back to you as soon as possible. Or you can send me an email at <a href="mailto:info@davinamulimbi.com" target="_blank">info@davinamulimbi.com</a>.</p>
-			<p>I'm available for freelance work.</p>
-			<form id="contactForm">
-				<p class="inputBox"><input type="text" placeholder="First name">
-				<input type="text" placeholder="Last name">
-				<input type="text" placeholder="Email"></p>
-				<p id="inputBoxMessage"><input type="text" placeholder="Enter your idea"></p>
-				<p class="inputBox"><input type="submit" value="Submit project"></p>
-			</form>
-			-->
-			
-			<div id="contactProfileImage">
-				<img src="images/davinaProfileImage.png" alt="Black and white profile image of Davina Mulimbi">
-			</div>
-
-
-			<div id="wufooContactForm">
+			<div class="wufooContactForm">
+				<!-- START Wufoo code -->
 				<div id="wufoo-z16os9601o23cq3">
 				Fill out my <a href="https://studentga.wufoo.com/forms/z16os9601o23cq3">online form</a>.
 				</div>
@@ -88,22 +76,113 @@
 				try { z16os9601o23cq3 = new WufooForm();z16os9601o23cq3.initialize(options);z16os9601o23cq3.display(); } catch (e) {}};
 				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
 				})(document, 'script');</script>	
+				<!-- END Wufoo Code -->
 			</div>
-		</div>
-
-		<div id="backToTop">
-		<p id="buttonToTop"><a href="#wrapper">Back To Top &#8593</a></p>
-		</div>
+		</section>
 	</main>
 
 	<footer id="pageFooter">
 		<ul id="copyrightCredits" class="clearfix">
-			<li id="copyrightLeft">&#169; 2014 Davina Mulimbi. All rights reserved.</li>
-			<li id="creditsRight">Site by Davina Mulimbi</li>
-			<!-- This worked too to clear float and show background color: <div style="clear: both;"></div> but used class="clearfix" as I floated more elements on page -->
+			<li class="copyrightLeft">&#169; 2014 Davina Mulimbi. All rights reserved.</li>
+			<li class="creditsRight">Site by Davina Mulimbi</li>
 		</ul>
+		<button type="button">
+			<a href="#" class="backToTop">&#8896;</a>
+		</button>
 	</footer>
-</div>
+
+
+<!-- <script>
+	$(document).ready(function() {
+  function filterPath(string) {
+  return string
+    .replace(/^\//,'')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+    .replace(/\/$/,'');
+  }
+  var locationPath = filterPath(location.pathname);
+  var scrollElem = scrollableElement('html', 'body');
+ 
+  $('a[href*=#]').each(function() {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    if (  locationPath == thisPath
+    && (location.hostname == this.hostname || !this.hostname)
+    && this.hash.replace(/#/,'') ) {
+      var $target = $(this.hash), target = this.hash;
+      if (target) {
+        var targetOffset = $target.offset().top;
+        $(this).click(function(event) {
+          event.preventDefault();
+          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+            location.hash = target;
+          });
+        });
+      }
+    }
+  });
+ 
+  // use the first element that is "scrollable"
+  function scrollableElement(els) {
+    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+      var el = arguments[i],
+          $scrollElement = $(el);
+      if ($scrollElement.scrollTop()> 0) {
+        return el;
+      } else {
+        $scrollElement.scrollTop(1);
+        var isScrollable = $scrollElement.scrollTop()> 0;
+        $scrollElement.scrollTop(0);
+        if (isScrollable) {
+          return el;
+        }
+      }
+    }
+    return [];
+  }
+ 
+});
+</script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+		// FUNCTIONS WHEN THE DOCUMENT IS FULLY LOADED
+		$(document).ready(function() {
+
+			// BACK TO TOP BUTTON
+			// Hide or show the back to top button at a certain window's height
+			$('button').hide();
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('button').fadeIn(200);
+				} else {
+					$('button').fadeOut(200);
+				}
+			});
+			// Animate the scroll to the top at a certain speed
+			$('button').click(function(event) {
+				event.preventDefault();
+
+				$('html, body').animate({scrollTop: 0}, 300);
+			});
+			//END BACK TO TOP BUTTON
+
+			// SMOOTH PAGE SCROLL from http://css-tricks.com/snippets/jquery/smooth-scrolling/
+			$(function() {
+	  			$('a[href*=#]:not([href=#])').click(function() {
+	    			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      				var target = $(this.hash);
+	      				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      				if (target.length) {
+	        				$('html,body').animate({
+	          					scrollTop: target.offset().top -70
+	        				}, 800);
+	        				return false;
+	      				}
+	    			}
+	  			});
+			});
+
+		});
+	</script>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 /* Site validation by W3C: CSS... to check */
 body {
-	color: #0b1338;
+	background: rgba(255,255,255,1);
+	color: rgba(11,19,56,1);
 	font-family: "Futura", sans-serif;
 	font-size: 16px;
 	line-height: 1.62em;
@@ -12,12 +13,203 @@ p {
 }
 h1 {
 	font-family: "Futura", sans-serif;
-	font-size: 32px;
+	font-size: 52px;
 	line-height: 1.62em;
 }
-#wrapper {
+/* Header */
+#pageHeader {
+	display: block;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
+nav#stickyPageNav {
+	background: rgba(39,39,39,1);
+	display: block;
+	height: 70px;
+	left: 0;
+	margin: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+ul#pageMenu {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 4%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+ul#pageMenu a {
+	display: block;
+	font-size: 14px;
+	line-height: 70px;
+	padding: 0 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+li.pageLogo a {
+	background: rgba(39,39,39,1);
+	float: left;
+}
+img.logoImg {
+	vertical-align: middle;
+	width: 300px;
+}
+li.pageMenuContact a {
+	background: rgba(181,167,151,1);
+	color: rgba(255,255,255,1);
+	float: right;
+}
+li.pageMenuContact a:link {
+	background: rgba(181,167,151,1);
+	color: rgba(255,255,255,1);
+}
+li.pageMenuContact a:visited {
+	background: rgba(181,167,151,1);
+	color: rgba(255,255,255,1);
+}
+li.pageMenuContact a:hover {
+	background: rgba(255,255,255,1);
+	color: rgba(181,167,151,1);
+}
+li.pageMenuContact a:active {
+	background: rgba(181,167,151,1);
+	color: rgba(255,255,255,1);
+}
+li.pageMenuList a {
+	background: rgba(39,39,39,1);
+	color: rgba(255,255,255,1);
+	float: right;
+}
+li.pageMenuList a:link {
+	background: rgba(39,39,39,1);
+	color: rgba(255,255,255,1);
+}
+li.pageMenuList a:visited {
+	background: rgba(39,39,39,1);
+	color: rgba(255,255,255,1);
+}
+li.pageMenuList a:hover {
+	background: rgba(255,255,255,1);
+	color: rgba(39,39,39,1);
+}
+li.pageMenuList a:active {
+	background: rgba(39,39,39,1);
+	color: rgba(255,255,255,1);
+}
+/* End of Header */
+/* Main Content */
+main {
+	display: block;
+	width: 100%;
+}
+/* Back to top button */
+button {
+	background: none;
+	border: none;
+	bottom: 2em;
+	padding: 10px 15px;
+	position: fixed;
+	right: 2em;
+}
+.backToTop, .backToTop:link, .backTopTop:visited, .backToTop:active {
+	background: rgba(0,0,0,.3);
+	color: rgba(255,255,255,1);
+	display: block;
+	font-family: "Futura", sans-serif;
+	font-size: 15px;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+} 
+.backToTop:hover, .backToTop:focus {
+	background: rgba(0,0,0,.6);
+	color: rgba(255,255,255,1);
+	display: block;
+	text-decoration: none;
+}
+/* End back to top button */
+section#aboveTheFold {
+	background: rgba(192,192,192,1);
+	height: 80vh;
+	margin: 0;
+}
+#about, #services, #projects, #contact {
+	height: 500px;
+	padding: 0 15%;
+}
+#aboveTheFold, {
+	padding-top: 70px;
+}
+section#about {
+	background: rgba(255,255,255,1);
+	margin: 0;
+}
+div.aboutSection {
+	padding: 0;
+}
+div.aboutProfileImage {
+	float: left;
+	margin: 50px 20px 0 0;
+}
+p.textAbout {
+	margin: 50px 0 0 0;
+}
+section#services {
+	background: rgba(255,255,255,1);
+	margin: 0;
+}
+ul#skillsList {
+	list-style-type: none;
+}
+li.skills {
+	background: rgba(255,255,255,1);
+	border: 1px solid rgba(0,0,0,1);
+	color: rgba(0,0,0,1);
+	float: left;
+	padding: 30px;
+	margin-right: 50px;
+}
+section#projects {	
+	background: rgba(255,255,255,1);
+	margin: 0;
+}
+section#contact {
+	background: rgba(255,255,255,1);
+	height: auto;
+	margin: 0;
+}
+div.wufooContactForm {
+	margin: 50px 0 0 -10px;
+	padding: 0;
+}
+/* End Main Content */
+/* Footer */
+#pageFooter {
+	background: rgba(39,39,39,1);
+	display: block;
+	margin: 0;
+	padding: 0 15%;
+}
+ul#copyrightCredits {
+	color: rgba(105,105,105,1);
+	font-size: 14px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li.copyrightLeft {
+	float: left;
+}
+li.creditsRight {
+	float: right;
+}
+/* End Footer */
 /* Clear float */
 .clearfix:after {
 	visibility: hidden;
@@ -28,206 +220,3 @@ h1 {
 	height: 0;
 }
 /* End of clear float */
-/* Header */
-#pageHeader {
-	display: block;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-nav#pageNavigation {
-	background: #000000;
-	margin: 0;
-	width: 100%;
-}
-ul#pageMenu {
-	list-style-type: none;
-	margin: 0;
-	padding: 0 4%;
-}
-ul#pageMenu a {
-	display: block;
-	font-size: 14px;
-	padding: 15px 30px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-li#pageLogo a {
-	background: #000000;
-	color: #ffffff;
-	float: left;
-	font-size: 16px;
-}
-li#pageMenuContact a {
-	background: #b5a797;
-	color: #ffffff;
-	float: right;
-}
-li#pageMenuContact a:link {
-	background: #b5a797;
-	color: #ffffff;
-}
-li#pageMenuContact a:visited {
-	background: #b5a797;
-	color: #ffffff;
-}
-li#pageMenuContact a:hover {
-	background: #ffffff;
-	color: #b5a797;
-}
-li#pageMenuContact a:active {
-	background: #b5a797;
-	color: #ffffff;
-}
-li.pageMenuList a {
-	background: #000000;
-	color: #ffffff;
-	float: right;
-	margin-left: 0;
-}
-li.pageMenuList a:link {
-	background: #000000;
-	color: #ffffff;
-}
-li.pageMenuList a:visited {
-	background: #000000;
-	color: #ffffff;
-}
-li.pageMenuList a:hover {
-	background: #ffffff;
-	color: #000000;
-}
-li.pageMenuList a:active {
-	background: #000000;
-	color: #ffffff;
-}
-/* End of Header */
-/* Main Content */
-main {
-	display: block;
-	width: 100%;
-}
-#aboveTheFold {
-	background: #C0C0C0;
-	height: 80vh;
-	margin: 0;
-}
-#about, #services, #projects {
-	height: 500px;
-	margin: 0;
-	padding: 0 15%;
-}
-#about {
-	background: #ffffff;
-	margin: 0;
-}
-#aboutSection {
-	padding: 0 0 0 0;
-}
-#services {
-	background: #ffffff;
-}
-ul#skillsList {
-	display: block;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-li.skills {
-	background: #ffffff;
-	border: 1px solid #000000;
-	color: #000000;
-	float: left;
-	padding: 30px;
-	margin-right: 50px;
-}
-#contact {
-	background: #ffffff;
-	height: auto;
-	margin: 0;
-	padding: 0 15%;
-}
-div#contactProfileImage {
-	float: left;
-	margin: 50px 100px 0 0;
-}
-div#wufooContactForm {
-	float: left;
-	margin-top: 50px;
-	width: 60%;
-}
-form#contactForm {
-	background: #C0C0C0;
-	display: inline-block;
-	padding: 50px;
-}
-input {
-	border: 0;
-	padding: 10px;
-	font-size: 18px;
-}
-input[type="Submit"] {
-	background: #ffd700;
-	color: #3e3c3c;
-}
-input[type="Submit"]:focus, input[type="Submit"]:hover {
-	background: #3e3c3c;
-	color: #ffd700;
-}
-p.inputBox {
-	margin-bottom: 5px;
-}
-p#inputBoxMessage {
-	display: inline-block;
-	margin-bottom: 5px;
-}
-div#backToTop {
-	margin: 50px 0 0 0;
-	padding: 0 15%;
-}
-p#buttonToTop {
-	text-align: center;
-	font-family: "Futura", sans-serif;
-}
-p#buttonToTop a {
-	color: #000000;
-	text-decoration: none;
-}
-p#buttonToTop a:link {
-	color: #000000;
-	text-decoration: none;
-}
-p#buttonToTop a:visited {
-	color: #000000;
-	text-decoration: none;
-}
-p#buttonToTop a:hover {
-	color: #000000;
-	text-decoration: underline;
-}
-p#buttonToTop a:active {
-	color: #000000;
-	text-decoration: none;
-}
-/* End Main Content */
-/* Footer */
-#pageFooter {
-	background: #000000;
-	display: block;
-	margin: 0;
-	padding: 0 15%;
-}
-ul#copyrightCredits {
-	color: #626666;
-	font-size: 14px;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-li#copyrightLeft {
-	float: left;
-}
-li#creditsRight {
-	float: right;
-}
-/* End Footer */
