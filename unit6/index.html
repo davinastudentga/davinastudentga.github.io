@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<title>Front-end Web Development & Web Design | New York City</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
@@ -14,53 +16,133 @@
 	<header id="pageHeader">
 		<nav id="stickyPageNav">
 			<ul id="pageMenu" class="clearfix">
-				<li class="pageLogo"><a href="index.html"><img class="logoImg" src="images/logoDavinaMulimbiWhite.png" alt="Wordmark logo of Davina Mulimbi"></a></li>
-				<li class="pageMenuContact"><a href="#contact">Have a digital project?</a></li>
-				<li class="pageMenuList"><a href="#projects">Projects</a></li>
+				<li class="pageLogo"><a href="#"><img class="logoImg" src="images/logoDavinaMulimbi.png" alt="Wordmark logo of Davina Mulimbi"></a></li>
+				<li class="pageMenuContact"><a href="#contact">Have a Digital Project?</a></li>
 				<li class="pageMenuList"><a href="#services">Services</a></li>
+				<li class="pageMenuList"><a href="#projects">Projects</a></li>
 				<li class="pageMenuList"><a href="#about">About</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<section id="aboveTheFold">
+		<section id="about">
+			<div class="aboutProfile">
+				<h1>About</h1>
+				<h2>Welcome.</h2>
+					<p>My name is <strong>Davina Mulimbi</strong>. I was born and raised in Belgium, but I'm currently based in <strong>New York City</strong>. I felt in love with coding while customizing a blog... Above all I'm a self-taught (and aspiring) <strong>front-end web developer</strong> and <strong>designer</strong>.</p>
+			</div>
 		</section>
 
-		<section id="about" class="clearfix">
-			<div class="aboutSection">
-				<h1>About</h1>
-				<div class="aboutProfileImage">
-					<img src="images/davinaProfileImage.png" alt="Black and white profile image of Davina Mulimbi">
-				</div>
-				<p class="textAbout">Welcome. My name is <strong>Davina Mulimbi</strong>. I was born and raised in Belgium and I'm currently based in <strong>New York City</strong>. Above all I'm a self-taught <strong>front-end web developer and designer</strong>, but I have also been taking courses with General Assembly. As I keep learning, <strong>I'm also welcoming projects. I am available for freelance work!</strong></p>
+		<section id="aboutQuote">
+			<div class="quote">
+				<h2>While I keep learning, I'm also <a href="#contact">welcoming projects</a> on a <strong>freelance</strong> basis!</h2>
 			</div>
+		</section>
+
+		<section id="projects" class="clearfix">
+			<h1>Projects</h1>
+			<h3>Davina Mulimbi</h3>
+
+				<div class="projectSummary">
+					<p>In late 2014, I applied for a course on the basics of web design and front-end web development at <em>General Assembly</em>. <a href="#about">DavinaMulimbi.com</a> was built as my midterm project during that 12-week mentor course.</p>
+					<hr>
+					<ul class="projectInfo">
+						<li>
+							<h4>Front-end Web Development:</h4>
+							<h5>HTML5, CSS3, jQuery</h5>
+						</li>
+						<li>
+							<h4>Web Design:</h4>
+							<h5>(Responsive design)</h5>
+						</li>
+						<li>
+							<h4>CMS:</h4>
+							<h5>...</h5>
+						</li>
+						<li>
+							<h4>2015</h4>
+						</li>
+						<li>
+							<h5>#personal</h5>
+						</li>
+					</ul>		
+				</div>
+
+				<div class="projectVisual">
+					<img src="images/appleIconsScreenShots.png" width="600" alt="Images of the website DavinaMulimbi.com on an Apple desktop, laptop, iPad, and iPhone">
+				</div>
+
+				<div class="projectGallery">
+					<img src="images/unit6ScreenShot.png" width="1000" alt="Screenshot of the homepage of DavinaMulimbi.com">
+				</div>
 		</section>
 
 		<section id="services" class="clearfix">
 			<h1>Services</h1>
-			<p>Front-end Web Development/Web Design</p>
-			<ul id="skillsList">
-				<li class="skills">HTML5</li>
-				<li class="skills">CSS3</li>
-				<li class="skills">Responsive Design</li>
-			</ul>
-		</section>
+			<h2>I code and design <strong>websites</strong>:</h2>
 
-		<section id="projects">
-			<h1>Projects</h1>
-			<p>This site has been built responsively with HTML5 and CSS3 to provide optimal experience across devices, from desktop to smartphones.</p>
-		</section>
+				<div class="frontEnd">
+					<h3>Front-end web development</h3>
+						<ul class="skillsList">
+							<li class="skills">
+								<p><strong>HTML5 & CSS3</strong></p>
+								<p class="skillDescription">Your website will be built using the latest versions of HTML & CSS to structure and style its content</p>
+							</li>
 
-		<section id="contact">
-			<h1>Contact</h1>
-			<div class="wufooContactForm">
-				<!-- START Wufoo code -->
-				<div id="wufoo-z16os9601o23cq3">
-				Fill out my <a href="https://studentga.wufoo.com/forms/z16os9601o23cq3">online form</a>.
+							<li class="skillsLearning">
+								<p><strong>jQuery</strong></p>
+								<p class="skillDescription">Currently learning this language which brings interactivity and animation to a website...</p>
+							</li>
+						</ul>
 				</div>
+
+				<div class="webDesign">
+					<h3>Web Design</h3>
+						<ul class="skillsList">
+							<li class="skillsLearning">
+								<p><strong>Responsive Design</strong></p>
+								<p class="skillDescription">The users of your website will experience a beautiful and functional site across devices, from desktop to smartphones...</p>
+							</li>
+						</ul>
+				</div>
+
+				<div class="cms">
+					<h3>Content Management System</h3>
+						<ul class="skillsList">
+							<li class="skillsLearning">
+								<p><strong>Wordpress</strong></p>
+								<p class="skillDescription">Currently learning...</p>
+							</li>
+
+							<li class="skillsLearning">
+								<p><strong>Tumblr</strong></p>
+								<p class="skillDescription">Currently learning...</p>
+							</li>
+						</ul>
+				</div>
+		</section>
+
+		<section id="contact" class="clearfix">
+			<h1>Contact</h1>
+			<h2>Have a Digital Project?</h2>
+
+				<div class="emailContact">
+					<p class="aContact">I'd love to hear your idea. Please send me an email (<strong>en <em>fran&#231;ais</em></strong> or <strong>in <em>english</em></strong>) at: <a href="mailto:info@davinamulimbi.com" target="_blank">info@davinamulimbi.com</a> and I'll get back to you as soon as possible.</p><br>
+					<p>Thank you for considering me!</p>
+				</div>
+
+				<div class="location">
+					<p><strong>New York</strong> based.</p>
+				</div>
+				<!-- Contact Form --> 
+				<!-- <div class="wufooContactForm"> -->
+				<!-- START Wufoo code -->
+				<!-- <div id="wufoo-z16os9601o23cq3">
+				Fill out my <a href="https://studentga.wufoo.com/forms/z16os9601o23cq3">online form</a>.
+				</div> -->
 				<!-- Sorry Wuffo don't want this on my site... I might have to check your policies first though... <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div> -->
-				<script type="text/javascript">var z16os9601o23cq3;(function(d, t) {
+				<!-- <script type="text/javascript">var z16os9601o23cq3;(function(d, t) {
 				var s = d.createElement(t), options = {
 				'userName':'studentga',
 				'formHash':'z16os9601o23cq3',
@@ -75,114 +157,63 @@
 				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
 				try { z16os9601o23cq3 = new WufooForm();z16os9601o23cq3.initialize(options);z16os9601o23cq3.display(); } catch (e) {}};
 				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-				})(document, 'script');</script>	
+				})(document, 'script');</script> -->
 				<!-- END Wufoo Code -->
-			</div>
+				<!-- </div> -->
 		</section>
 	</main>
 
 	<footer id="pageFooter">
 		<ul id="copyrightCredits" class="clearfix">
 			<li class="copyrightLeft">&#169; 2014 Davina Mulimbi. All rights reserved.</li>
-			<li class="creditsRight">Site by Davina Mulimbi</li>
+			<li class="creditsRight">Site by <a href="#about">Davina Mulimbi</a></li>
 		</ul>
+
 		<button type="button">
-			<a href="#" class="backToTop">&#8896;</a>
+			<a href="#" class="backToTop">&#8593;</a>
 		</button>
 	</footer>
 
-
-<!-- <script>
-	$(document).ready(function() {
-  function filterPath(string) {
-  return string
-    .replace(/^\//,'')
-    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-    .replace(/\/$/,'');
-  }
-  var locationPath = filterPath(location.pathname);
-  var scrollElem = scrollableElement('html', 'body');
- 
-  $('a[href*=#]').each(function() {
-    var thisPath = filterPath(this.pathname) || locationPath;
-    if (  locationPath == thisPath
-    && (location.hostname == this.hostname || !this.hostname)
-    && this.hash.replace(/#/,'') ) {
-      var $target = $(this.hash), target = this.hash;
-      if (target) {
-        var targetOffset = $target.offset().top;
-        $(this).click(function(event) {
-          event.preventDefault();
-          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
-            location.hash = target;
-          });
-        });
-      }
-    }
-  });
- 
-  // use the first element that is "scrollable"
-  function scrollableElement(els) {
-    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
-      var el = arguments[i],
-          $scrollElement = $(el);
-      if ($scrollElement.scrollTop()> 0) {
-        return el;
-      } else {
-        $scrollElement.scrollTop(1);
-        var isScrollable = $scrollElement.scrollTop()> 0;
-        $scrollElement.scrollTop(0);
-        if (isScrollable) {
-          return el;
-        }
-      }
-    }
-    return [];
-  }
- 
-});
-</script> -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script>
-		// FUNCTIONS WHEN THE DOCUMENT IS FULLY LOADED
-		$(document).ready(function() {
+		<script>
+			// FUNCTIONS WHEN THE DOCUMENT IS FULLY LOADED
+			$(document).ready(function() {
+				// BACK TO TOP BUTTON
+				// Hide or show the back to top button at a certain window's height
+				$('button').hide();
+				$(window).scroll(function() {
+					if ($(this).scrollTop() > 200) {
+						$('button').fadeIn(200);
+					} else {
+						$('button').fadeOut(200);
+					}
+				});
+				// Animate the scroll to the top at a certain speed
+				$('button').click(function(event) {
+					event.preventDefault();
 
-			// BACK TO TOP BUTTON
-			// Hide or show the back to top button at a certain window's height
-			$('button').hide();
-			$(window).scroll(function() {
-				if ($(this).scrollTop() > 200) {
-					$('button').fadeIn(200);
-				} else {
-					$('button').fadeOut(200);
-				}
+					$('html, body').animate({scrollTop: 0}, 300);
+				});
+				//END BACK TO TOP BUTTON
+
+				// SMOOTH PAGE SCROLL from http://css-tricks.com/snippets/jquery/smooth-scrolling/
+				$(function() {
+		  			$('a[href*=#]:not([href=#])').click(function() {
+		    			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      				var target = $(this.hash);
+		      				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      				if (target.length) {
+		        				$('html,body').animate({
+		          					scrollTop: target.offset().top -70
+		        				}, 800);
+		        				return false;
+		      				}
+		    			}
+		  			});
+				});
+
 			});
-			// Animate the scroll to the top at a certain speed
-			$('button').click(function(event) {
-				event.preventDefault();
-
-				$('html, body').animate({scrollTop: 0}, 300);
-			});
-			//END BACK TO TOP BUTTON
-
-			// SMOOTH PAGE SCROLL from http://css-tricks.com/snippets/jquery/smooth-scrolling/
-			$(function() {
-	  			$('a[href*=#]:not([href=#])').click(function() {
-	    			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	      				var target = $(this.hash);
-	      				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      				if (target.length) {
-	        				$('html,body').animate({
-	          					scrollTop: target.offset().top -70
-	        				}, 800);
-	        				return false;
-	      				}
-	    			}
-	  			});
-			});
-
-		});
-	</script>
+		</script>
 </body>
 
 </html>
