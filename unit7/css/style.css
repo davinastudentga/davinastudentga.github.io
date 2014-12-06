@@ -77,3 +77,13 @@ section#questionOne, section#questionTwo, section#questionThree, section#questio
 	padding-top: 25%;
 	width: 50%;
 }
+/* Clear float */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+/* End of clear float */
