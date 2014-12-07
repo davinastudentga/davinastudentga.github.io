@@ -74,7 +74,7 @@ footer {
 }
 section#questionOne, section#questionTwo, section#questionThree, section#questionFour, section#questionFive, section#questionSix, section#questionSeven {
 	height: 100vh;
-	padding-top: 25%;
+	padding-top: 50%;
 	width: 50%;
 }
 /* Clear float */
