@@ -293,7 +293,6 @@ p.aContact {
 	font-size: 16px;
 	font-weight: lighter;
 	line-height: 1.62em;
-	margin-bottom: 20px;
 }
 p.aContact a:link, p.aContact a:visited {
 	border-bottom: 2px solid rgba(255,40,80,1);
