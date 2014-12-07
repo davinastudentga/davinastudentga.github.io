@@ -72,7 +72,7 @@ footer {
 	left: 2%;
 	position: fixed;
 }
-li {
+li.questionsLine {
 	margin-bottom: 10px;
 }
 section#questionOne, section#questionTwo, section#questionThree, section#questionFour, section#questionFive, section#questionSix, section#questionSeven {
