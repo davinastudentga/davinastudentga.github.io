@@ -1,0 +1,102 @@
+/* Site validation by W3C: CSS3 / no error found */
+body {
+	color: rgba(162,162,162,1);
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.62em;
+}
+p { 
+	color: rgba(34,34,34,1);
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.62em;
+	padding: 20px 0 5px 0;
+}
+h1 {
+	color: rgba(162,162,162,1);
+	font-family: Arial, sans-serif;
+	font-size: 42px;
+	line-height: 1.62em;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+h1 a, h1 a:link, h1 a:visited, h1 a:active {
+	color: rgba(162,162,162,1);
+	text-decoration: none;
+}
+h1 a:hover {
+	color: rgba(34,34,34,1);
+	text-decoration: none;
+}
+h2 {
+	color: rgba(34,34,34,1);
+	font-family: Arial, sans-serif;
+	font-size: 28px;
+	line-height: 1.62em;
+}
+a:link, a:visited {
+	color: rgba(255,0,0,1);
+	text-decoration: underline;
+}
+a:hover, a :active {
+	color: rgba(162,162,162,1);
+	text-decoration: none;
+}
+header {
+	border-right: thin solid rgba(162,162,162,1);
+	float: left;
+	height: 100%;
+	left: 0;
+	padding: 2% 0 2% 2%;
+	position: fixed;
+	top: 0;
+	width: 28%;
+}
+nav {
+	margin-top: 70px;
+}
+main {
+	float: left;
+	padding: 0 6% 2% 5%;
+	position: absolute;
+	right: 0;
+	width: 59%;
+}
+footer {
+	bottom: 1em;
+	color: rgba(34,34,34,1);
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 14px;
+	left: 2%;
+	position: fixed;
+}
+li.questionsLine {
+	margin-bottom: 10px;
+}
+section#questionOne, section#questionTwo, section#questionThree, section#questionFour, section#questionFive, section#questionSix, section#questionSeven {
+	height: 100vh;
+	padding-top: 35%;
+	width: 50%;
+}
+strong {
+	font-weight: bold;
+}
+p.questions {
+	background: rgba(34,34,34,1);
+	color: rgba(255,255,255,1);
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 5px 20px;
+}
+/* Clear float */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+/* End of clear float */
