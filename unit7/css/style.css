@@ -37,11 +37,11 @@ h2 {
 	line-height: 1.62em;
 }
 a:link, a:visited {
-	color: rgba(162,162,162,1);
+	color: rgba(255,0,0,1);
 	text-decoration: underline;
 }
 a:hover, a :active {
-	color: rgba(255,0,0,1);
+	color: rgba(162,162,162,1);
 	text-decoration: none;
 }
 header {
