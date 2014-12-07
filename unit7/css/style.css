@@ -80,6 +80,9 @@ section#questionOne, section#questionTwo, section#questionThree, section#questio
 	padding-top: 35%;
 	width: 50%;
 }
+strong {
+	font-weight: bold;
+}
 /* Clear float */
 .clearfix:after {
 	visibility: hidden;
