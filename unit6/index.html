@@ -34,11 +34,9 @@
 			</div>
 		</section>
 
-		<section id="aboutQuote">
-			<div class="quote">
-				<h2>I'm currently <a href="#contact">accepting new projects</a> on a <strong>freelance</strong> basis!</h2>
-			</div>
-		</section>
+		<blockquote>
+				<p class="quote">I'm currently <a href="#contact">accepting new projects</a> on a <strong>freelance</strong> basis!</p>
+		</blockquote>
 
 		<section id="projects" class="clearfix">
 			<h1>Projects</h1>
@@ -50,37 +48,34 @@
 					<ul class="projectInfo">
 						<li>
 							<h4>Front-end Web Development:</h4>
-							<h5>HTML5, CSS3, jQuery</h5>
+							<p class="projectDetails">HTML5, CSS3, jQuery</p>
 						</li>
 						<li>
 							<h4>Web Design:</h4>
-							<h5>Responsive design</h5>
+							<p class="projectDetails">Responsive design</p>
 						</li>
 						<li>
 							<h4>CMS:</h4>
-							<h5>Wordpress</h5>
+							<p class="projectDetails">Wordpress</p>
 						</li>
 						<li>
 							<h4>2015</h4>
-						</li>
-						<li>
-							<h5>#personal</h5>
+							<p class="projectDetails">Personal</p>
 						</li>
 					</ul>		
 				</div>
 
 				<div class="projectVisual">
-					<img src="images/appleIconsScreenShots.png" width="600" alt="Images of the website DavinaMulimbi.com on an Apple desktop, laptop, iPad, and iPhone">
+					<img class="appleResponsiveProject" src="images/appleIconsScreenShots.png" alt="Images of the website DavinaMulimbi.com on an Apple desktop, laptop, iPad, and iPhone">
 				</div>
 
 				<div class="projectGallery">
-					<img src="images/unit6ScreenShot.png" width="1000" alt="Screenshot of the homepage of DavinaMulimbi.com">
+					<img class="projectGalleryVisual" src="images/unit6ScreenShot.png" alt="Screenshot of the homepage of DavinaMulimbi.com">
 				</div>
 		</section>
 
 		<section id="services" class="clearfix">
 			<h1>Services</h1><br>
-			<!-- <h2>I code and design <strong>websites</strong>:</h2> -->
 
 				<div class="frontEnd">
 					<h3>Front-end web development</h3>
@@ -112,12 +107,10 @@
 						<ul class="skillsList">
 							<li class="skills">
 								<p><strong>Wordpress</strong></p>
-								<!-- <p class="skillDescription">Currently learning...</p> -->
 							</li>
 
 							<li class="skills">
 								<p><strong>Tumblr</strong></p>
-								<!-- <p class="skillDescription">Currently learning...</p> -->
 							</li>
 						</ul>
 				</div>
@@ -128,8 +121,8 @@
 			<h2>Have a Digital Project?</h2>
 
 				<div class="emailContact">
-					<p class="aContact">I'd love to hear your idea. Please send me an email (<strong>en <em>fran&#231;ais</em></strong> or <strong>in <em>english</em></strong>) at: <a href="mailto:info@davinamulimbi.com" target="_blank">info@davinamulimbi.com</a> and I'll get back to you as soon as possible.</p><br>
-					<p>Thank you for considering me!</p>
+					<p class="aContact">I'd love to hear your idea. Please send me an email (<strong>en <em>fran&#231;ais</em></strong> or <strong>in <em>english</em></strong>) at: <a href="mailto:info@davinamulimbi.com" target="_blank">info@davinamulimbi.com</a> and I'll get back to you as soon as possible.</p>
+					<p class="aContact">Thank you for considering me!</p>
 				</div>
 
 				<div class="location">
@@ -169,9 +162,9 @@
 			<li class="creditsRight">Site by <a href="#about">Davina Mulimbi</a></li>
 		</ul>
 
-		<button type="button">
+		<div class="button">
 			<a href="#" class="backToTop">&#8593;</a>
-		</button>
+		</div>
 	</footer>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -180,16 +173,16 @@
 			$(document).ready(function() {
 				// BACK TO TOP BUTTON
 				// Hide or show the back to top button at a certain window's height
-				$('button').hide();
+				$('.button').hide();
 				$(window).scroll(function() {
 					if ($(this).scrollTop() > 200) {
-						$('button').fadeIn(200);
+						$('.button').fadeIn(200);
 					} else {
-						$('button').fadeOut(200);
+						$('.button').fadeOut(200);
 					}
 				});
 				// Animate the scroll to the top at a certain speed
-				$('button').click(function(event) {
+				$('.button').click(function(event) {
 					event.preventDefault();
 
 					$('html, body').animate({scrollTop: 0}, 300);

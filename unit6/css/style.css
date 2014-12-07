@@ -8,14 +8,14 @@ body {
 	line-height: 1.62em;
 	width: 100%;
 }
-p a:link, p a:visited, p a:active {
+p a:link, p a:visited {
 	border-bottom: thin solid rgba(140,140,140,1);
 	color: rgba(140,140,140,1);
 	font-weight: normal;
 	padding-bottom: 1px;
 	text-decoration: none;
 }
-p a:hover {
+p a:active, p a:hover {
 	border-bottom: thin solid rgba(255,40,80,1);
 	color: rgba(255,40,80,1);
 }
@@ -40,14 +40,14 @@ h2 {
 	line-height: 1.62em;
 	margin-bottom: 10px;
 }
-h2 a:link, h2 a:visited, h2 a:active {
+h2 a:link, h2 a:visited {
 	border-bottom: thin solid rgba(255,40,80,1);
 	color: rgba(255,40,80,1);
 	font-weight: normal;
 	padding-bottom: 1px;
 	text-decoration: none;
 }
-h2 a:hover {
+h2 a:active, h2 a:hover {
 	border-bottom: thin solid rgba(51,51,51,1);
 	color: rgba(51,51,51,1);
 }
@@ -61,14 +61,6 @@ h4 {
 	color: rgba(51,51,51,1);
 	font-family: 'Times New Roman', Times, Georgia, serif;
 	font-size: 15px;
-	font-weight: lighter;
-	line-height: 1.62em;
-}
-h5 {
-	color: rgba(140,140,140,1);
-	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: 15px;
-	font-style: italic;
 	font-weight: lighter;
 	line-height: 1.62em;
 }
@@ -110,16 +102,16 @@ section#about {
 	height: 75vh;
 	padding: 0 15%;
 }
-section#aboutQuote {
-	background: rgba(249,249,249,1);
-	padding: 10px 15% 10px 15%;
-	text-align: right;
-}
 section#projects, section#services {	
 	background: rgba(255,255,255,1);
 }
 section#contact {
 	background: rgba(249,249,249,1);
+}
+blockquote {
+	background: rgba(249,249,249,1);
+	padding: 10px 15% 10px 15%;
+	text-align: right;
 }
 /* Header content */
 nav#stickyPageNav {
@@ -153,11 +145,7 @@ ul#pageMenu a {
 li.pageLogo a {
 	float: left;
 }
-img.logoImg {
-	vertical-align: middle;
-	width: 170px;
-}
-li.pageMenuContact a, li.pageMenuContact a:link, li.pageMenuContact a:visited, li.pageMenuContact a:active {
+li.pageMenuContact a, li.pageMenuContact a:link, li.pageMenuContact a:visited {
 	background: rgba(51,51,51,1);
 	color: rgba(255,255,255,1);
 	float: right;
@@ -166,10 +154,10 @@ li.pageMenuContact a, li.pageMenuContact a:link, li.pageMenuContact a:visited, l
 	font-weight: normal;
 	text-decoration: none;
 }
-li.pageMenuContact a:hover {
+li.pageMenuContact a:active, li.pageMenuContact a:hover {
 	text-decoration: underline;
 }
-li.pageMenuList a, li.pageMenuList a:link, li.pageMenuList a:visited, li.pageMenuList a:active {
+li.pageMenuList a, li.pageMenuList a:link, li.pageMenuList a:visited {
 	color: rgba(51,51,51,1);
 	float: right;
 	/* font-family: 'Open Sans', 'PT sans', 'century gothic', sans-serif; */
@@ -181,9 +169,13 @@ li.pageMenuList a, li.pageMenuList a:link, li.pageMenuList a:visited, li.pageMen
 	text-decoration: none;
 	text-transform: none;
 }
-li.pageMenuList a:hover {
+li.pageMenuList a:active, li.pageMenuList a:hover {
 	color: rgba(51,51,51,1);
 	text-decoration: underline;
+}
+img.logoImg {
+	vertical-align: middle;
+	width: 150px;
 }
 /* End of Header content*/
 /* Main Content */
@@ -191,13 +183,28 @@ div.aboutProfile {
 	padding-top: 200px;
 	width: 35%;
 }
-div.quote {
-	padding-left: 55%;
-	width: 45%;
+p.quote {
+	color: rgba(51,51,51,1);
+	font-family: 'Times New Roman', Times, Georgia, serif;
+	font-size: 25px;
+	font-style: italic;
+	line-height: 1.62em;
+	margin-bottom: 10px;
+}
+p.quote a:link, p.quote a:visited {
+	border-bottom: thin solid rgba(255,40,80,1);
+	color: rgba(255,40,80,1);
+	font-weight: normal;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+p.quote a:active, p.quote a:hover {
+	border-bottom: thin solid rgba(51,51,51,1);
+	color: rgba(51,51,51,1);
 }
 div.projectSummary {
 	float: left;
-	width: 35%;
+	width: 30%;
 }
 ul.projectInfo {
 	display: block;
@@ -213,13 +220,27 @@ div.projectVisual {
 	margin-bottom: 100px;
 	margin-left: 15%;
 	text-align: center;
-	width: 50%;
+	width: 55%;
 }
 div.projectGallery {
 	color: rgba(51,51,51,1);
 	overflow: hidden;
 	text-align: center;
 	width: 100%;
+}
+img.appleResponsiveProject {
+	max-width: 600px;
+}
+img.projectGalleryVisual {
+	max-width: 1000px;
+}
+p.projectDetails {
+	color: rgba(140,140,140,1);
+	font-family: 'Times New Roman', Times, Georgia, serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: lighter;
+	line-height: 1.62em;
 }
 div.frontEnd, div.webDesign, div.cms {
 	float: left;
@@ -266,13 +287,21 @@ div.location {
 	text-align: right;
 	width: 55%;
 }
-p.aContact a:link, p.aContact a:visited, p.aContact a:active {
+p.aContact { 
+	color: rgba(51,51,51,1);
+	font-family: 'PT Sans', 'Open Sans', 'century gothic', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.62em;
+	margin-bottom: 20px;
+}
+p.aContact a:link, p.aContact a:visited {
 	border-bottom: 2px solid rgba(255,40,80,1);
 	color: rgba(255,40,80,1);
-	font-weight: normal;
+	font-weight: lighter;
 	text-decoration: none;
 }
-p.aContact a:hover {
+p.aContact a:active, p.aContact a:hover {
 	color: rgba(140,140,140,1);
 	border-bottom: 2px solid rgba(140,140,140,1);
 }
@@ -299,28 +328,27 @@ li.copyrightLeft {
 li.creditsRight {
 	float: right;
 }
-ul li.creditsRight a, ul li.creditsRight a:link, ul li.creditsRight a:visited, ul li.creditsRight a:active {
+ul li.creditsRight a, ul li.creditsRight a:link, ul li.creditsRight a:visited {
 	border-bottom: none;
 	color: rgba(192,192,192,1);
 	font-weight: normal;
 	padding: 0;
 	text-decoration: none;
 }
-ul li.creditsRight a:hover {
+ul li.creditsRight a:active, ul li.creditsRight a:hover {
 	border-bottom: none;
 	color: rgba(140,140,140,1);
 }
 /* End Footer */
 /* Back to top button */
-button {
+div.button {
 	background: none;
 	border: none;
 	bottom: 2em;
-	padding: 10px 15px;
 	position: fixed;
 	right: 2em;
 }
-a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited, .backToTop:active {
+a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	background: rgba(0,0,0,.2);
 	color: rgba(255,255,255,1);
 	display: block;
@@ -329,7 +357,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited, .backToTop:active
 	padding: 8px 15px;
 	text-decoration: none;
 } 
-.backToTop:hover, .backToTop:focus {
+.backToTop:active, .backToTop:hover {
 	background: rgba(0,0,0,.6);
 }
 /* End back to top button */
