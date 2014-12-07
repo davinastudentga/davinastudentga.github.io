@@ -83,6 +83,11 @@ section#questionOne, section#questionTwo, section#questionThree, section#questio
 strong {
 	font-weight: bold;
 }
+p.questions {
+	background: rgba(34,34,34,1);
+	color: rgba(255,255,255,1);
+	padding: 5px;
+}
 /* Clear float */
 .clearfix:after {
 	visibility: hidden;
