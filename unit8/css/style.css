@@ -1,0 +1,40 @@
+body {
+	background: rgba(255,255,255,1);
+	margin: 0;
+	padding: 0 5%;
+	width: 100%;
+}
+header {
+	background: rgba(255,255,255,1);
+	margin-top: 5%;
+}
+main {
+	background: rgba(255,255,255,1);
+	margin: 200px 0;
+	width: 90%;
+}
+section.iPhonePairOne, .iPhonePairTwo, .iPhonePairThree {
+	margin: 0 25% 100px 25%;
+	width: 100%;
+}
+img.iPhoneSize {
+	float: left;
+	width: 15%;
+}
+img.iPhoneSizeMain {
+	float: left;
+	width: 25%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
