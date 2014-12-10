@@ -13,8 +13,8 @@ main {
 	margin: 200px 0;
 	width: 90%;
 }
-section.iPhonePairOne, .iPhonePairTwo, .iPhonePairThree {
-	margin: 0 25% 100px 25%;
+section.iPhonePairOne, .iPhonePairTwo, .iPhonePairThree, .iPhonePairFour {
+	margin: 0 15% 100px 15%;
 	width: 100%;
 }
 img.iPhoneSize {
@@ -24,6 +24,13 @@ img.iPhoneSize {
 img.iPhoneSizeMain {
 	float: left;
 	width: 25%;
+}
+img.iPadSize {
+	float: left;
+	width: 22.5%;
+}
+img.iPadSizeMain {
+	width: 70%;
 }
 ul {
 	list-style-type: none;
