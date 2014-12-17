@@ -449,7 +449,7 @@ p.aContact a:active, p.aContact a:hover {
 ul#copyrightCredits {
 	color: rgba(140,140,140,1);
 	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: .88em; /* 14px responsive design > 14.08px */
+	font-size: .875em; /* 14px responsive design > 14px */
 	font-weight: lighter;
 	list-style-type: none;
 	margin: 0;
@@ -508,10 +508,87 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	height: 0;
 }
 /* End of clear float */
-/* PORTRAIT smartphones */
-@media only screen and (max-width: 400px) {
+/* Responsive: PORTRAIT small smartphones */
+@media only screen and (min-width: 240px) and (max-width: 320px) {
 	body {
-		font-size: .88em; /* desktop 16px to smartphone 14px */
+		font-size: .8125em; /* desktop 16px to small smartphone 13px */
+	}
+	nav#stickyPageNav {
+		display: none;
+		visibility: hidden;
+	}
+	nav#stickyPageNavResponsive {
+		visibility: visible;
+	}
+	section#projects, section#services, section#contact {
+		padding: 25% 5%; /* desktop 10% 15% */
+		width: 90%;
+	}
+	section#about {
+		height: auto; /* desktop 70vh */
+		padding: 0 5%; /* desktop 15% */
+		width: 90%;
+	}
+	div.aboutProfile {
+		padding: 10% 0 0 0; /* desktop 200px 0 */
+		width: 100%; /* desktop 35% */
+	}
+	blockquote {
+		background: rgba(249,249,249,1);
+		padding: 5% 5%; /* desktop 15% */
+		text-align: center;
+		width: 90%; /* added for responsive design */
+	}
+	footer#pageFooter {
+		height: 4em; /* desktop 2em */
+		padding: 0 5%; /* desktop 15% */
+		width: 90%;
+	}
+	div.projectSummary {
+		float: none;
+		width: 100%;
+	}
+	div.projectVisual {
+		float: none;
+		margin: 15% 0; /* desktop 0 15% 150px 0 */
+		text-align: center;
+		max-width: 100%;
+	}
+	div.projectGallery {
+		padding: 0;
+		max-width: 100%;
+	}
+	div.frontEnd, div.webDesign, div.cms {
+		float: none;
+		margin: 15% 0 0 0;
+		width: 100%; /* desktop 25% */
+	}
+	div.emailContact {
+		float: none;
+		margin-bottom: 4em;
+		width: 100%;
+	}
+	div.location {
+		float: none;
+		width: 100%;
+	}
+	li.copyrightLeft {
+		float: none;
+		text-align: center;
+	}
+	li.creditsRight {
+		float: none;
+		text-align: center;
+	}
+	div.button {
+		display: none;
+		visibility: hidden;
+	}
+}
+/* Responsive: PORTRAIT smartphones */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	body {
+		font-size: .875em; /* desktop 16px to smartphone 14px */
 	}
 	nav#stickyPageNav {
 		display: none;
@@ -525,6 +602,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		width: 80%;
 	}
 	section#about {
+		height: auto; /* desktop 70vh */
 		padding: 0 10%; /* desktop 15% */
 		width: 80%;
 	}
@@ -534,7 +612,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 1% 10%; /* desktop 15% */
+		padding: 5% 10%; /* desktop 15% */
 		text-align: center;
 		width: 80%; /* added for responsive design */
 	}
@@ -584,7 +662,80 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		visibility: hidden;
 	}
 }
-/* LANDSCAPE smartphones + PORTRAIT TABLETS */
-@media only screen and (min-width: 480px) (max-width: 800px) {
-
+/* Responsive: LANDSCAPE smartphones + PORTRAIT tablets */
+@media only screen and (min-width: 480px) (max-width: 768px) {
+	body {
+		font-size: .875em; /* desktop 16px to smartphone 14px */
+	}
+	nav#stickyPageNav {
+		display: none;
+		visibility: hidden;
+	}
+	nav#stickyPageNavResponsive {
+		visibility: visible;
+	}
+	section#projects, section#services, section#contact {
+		padding: 25% 10%; /* desktop 10% 15% */
+		width: 80%;
+	}
+	section#about {
+		height: auto; /* desktop 70vh */
+		padding: 0 10%; /* desktop 15% */
+		width: 80%;
+	}
+	div.aboutProfile {
+		padding: 10% 0 0 0; /* desktop 200px 0 */
+		width: 100%; /* desktop 35% */
+	}
+	blockquote {
+		background: rgba(249,249,249,1);
+		padding: 5% 10%; /* desktop 15% */
+		text-align: center;
+		width: 80%; /* added for responsive design */
+	}
+	footer#pageFooter {
+		height: 4em; /* desktop 2em */
+		padding: 0 10%; /* desktop 15% */
+		width: 80%;
+	}
+	div.projectSummary {
+		float: none;
+		width: 100%;
+	}
+	div.projectVisual {
+		float: none;
+		margin: 15% 0; /* desktop 0 15% 150px 0 */
+		text-align: center;
+		max-width: 100%;
+	}
+	div.projectGallery {
+		padding: 0;
+		max-width: 100%;
+	}
+	div.frontEnd, div.webDesign, div.cms {
+		float: none;
+		margin: 15% 0 0 0;
+		width: 100%; /* desktop 25% */
+	}
+	div.emailContact {
+		float: none;
+		margin-bottom: 4em;
+		width: 100%;
+	}
+	div.location {
+		float: none;
+		width: 100%;
+	}
+	li.copyrightLeft {
+		float: none;
+		text-align: center;
+	}
+	li.creditsRight {
+		float: none;
+		text-align: center;
+	}
+	div.button {
+		display: none;
+		visibility: hidden;
+	}
 }
