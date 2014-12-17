@@ -663,7 +663,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 }
 /* Responsive: LANDSCAPE smartphones + PORTRAIT tablets */
-@media only screen and (min-width: 480px) (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 	body {
 		font-size: .875em; /* desktop 16px to smartphone 14px */
 	}
