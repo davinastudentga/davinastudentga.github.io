@@ -508,6 +508,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	height: 0;
 }
 /* End of clear float */
+/* RESPONSIVE DESIGN - @media queries for 240 x 320 | 320 x 480 | 480 x 768 | 768 x 1024 */
 /* Responsive: PORTRAIT small smartphones */
 @media only screen and (min-width: 240px) and (max-width: 320px) {
 	body {
@@ -535,7 +536,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 5% 5%; /* desktop 15% */
+		padding: 10% 5%; /* desktop 15% */
 		text-align: center;
 		width: 90%; /* added for responsive design */
 	}
@@ -612,7 +613,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 5% 10%; /* desktop 15% */
+		padding: 15% 10%; /* desktop 15% */
 		text-align: center;
 		width: 80%; /* added for responsive design */
 	}
@@ -665,7 +666,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 /* Responsive: LANDSCAPE smartphones + PORTRAIT tablets */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 	body {
-		font-size: .875em; /* desktop 16px to smartphone 14px */
+		font-size: .875em; /* desktop 16px to smartphone/tablets 14px */
 	}
 	nav#stickyPageNav {
 		display: none;
@@ -689,12 +690,12 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 5% 10%; /* desktop 15% */
+		padding: 15% 10%; /* desktop 15% */
 		text-align: center;
 		width: 80%; /* added for responsive design */
 	}
 	footer#pageFooter {
-		height: 4em; /* desktop 2em */
+		height: 2em; /* desktop 2em */
 		padding: 0 10%; /* desktop 15% */
 		width: 80%;
 	}
@@ -727,12 +728,89 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		width: 100%;
 	}
 	li.copyrightLeft {
-		float: none;
-		text-align: center;
+		float: left;
+		text-align: none;
 	}
 	li.creditsRight {
-		float: none;
+		float: right;
+		text-align: none;
+	}
+	div.button {
+		display: none;
+		visibility: hidden;
+	}
+}
+/* Responsive: PORTRAIT tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	body {
+		font-size: .9375em; /* desktop 16px to tablets 15px */
+	}
+	nav#stickyPageNav {
+		display: none;
+		visibility: hidden;
+	}
+	nav#stickyPageNavResponsive {
+		visibility: visible;
+	}
+	section#projects, section#services, section#contact {
+		padding: 25% 10%; /* desktop 10% 15% */
+		width: 80%;
+	}
+	section#about {
+		height: auto; /* desktop 70vh */
+		padding: 0 10%; /* desktop 15% */
+		width: 80%;
+	}
+	div.aboutProfile {
+		padding: 10% 0 0 0; /* desktop 200px 0 */
+		width: 100%; /* desktop 35% */
+	}
+	blockquote {
+		background: rgba(249,249,249,1);
+		padding: 15% 10%; /* desktop 15% */
 		text-align: center;
+		width: 80%; /* added for responsive design */
+	}
+	footer#pageFooter {
+		height: 2em; /* desktop 2em */
+		padding: 0 10%; /* desktop 15% */
+		width: 80%;
+	}
+	div.projectSummary {
+		float: none;
+		width: 100%;
+	}
+	div.projectVisual {
+		float: none;
+		margin: 15% 0; /* desktop 0 15% 150px 0 */
+		text-align: center;
+		max-width: 100%;
+	}
+	div.projectGallery {
+		padding: 0;
+		max-width: 100%;
+	}
+	div.frontEnd, div.webDesign, div.cms {
+		float: none;
+		margin: 15% 0 0 0;
+		width: 100%; /* desktop 25% */
+	}
+	div.emailContact {
+		float: none;
+		margin-bottom: 4em;
+		width: 100%;
+	}
+	div.location {
+		float: none;
+		width: 100%;
+	}
+	li.copyrightLeft {
+		float: left;
+		text-align: none;
+	}
+	li.creditsRight {
+		float: right;
+		text-align: none;
 	}
 	div.button {
 		display: none;
