@@ -763,12 +763,12 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.aboutProfile {
 		padding: 10% 0 0 0; /* desktop 200px 0 */
-		width: 100%; /* desktop 35% */
+		width: 70%; /* desktop 35% */
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
 		padding: 15% 10%; /* desktop 15% */
-		text-align: center;
+		text-align: right;
 		width: 80%; /* added for responsive design */
 	}
 	footer#pageFooter {
@@ -778,7 +778,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.projectSummary {
 		float: none;
-		width: 100%;
+		width: 60%; /* desktop 30% */
 	}
 	div.projectVisual {
 		float: none;
@@ -792,13 +792,13 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.frontEnd, div.webDesign, div.cms {
 		float: none;
-		margin: 15% 0 0 0;
-		width: 100%; /* desktop 25% */
+		margin: 15% 10% 0 10%;
+		width: 80%; /* desktop 25% */
 	}
 	div.emailContact {
 		float: none;
 		margin-bottom: 4em;
-		width: 100%;
+		width: 60%;
 	}
 	div.location {
 		float: none;
@@ -845,7 +845,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	blockquote {
 		background: rgba(249,249,249,1);
 		padding: 15% 10%; /* desktop 15% */
-		text-align: center;
+		text-align: right;
 		width: 80%; /* added for responsive design */
 	}
 	footer#pageFooter {
