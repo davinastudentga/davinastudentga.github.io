@@ -823,11 +823,11 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		font-size: .9375em; /* desktop 16px to tablets 15px */
 	}
 	nav#stickyPageNav {
-		display: none;
-		visibility: hidden;
+		display: block;
+		visibility: visible;
 	}
 	nav#stickyPageNavResponsive {
-		visibility: visible;
+		visibility: hidden;
 	}
 	section#projects, section#services, section#contact {
 		padding: 15% 10%; /* desktop 10% 15% */
@@ -840,11 +840,11 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.aboutProfile {
 		padding: 10% 0 0 0; /* desktop 200px 0 */
-		width: 100%; /* desktop 35% */
+		width: 55%; /* desktop 35% */
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 15% 10%; /* desktop 15% */
+		padding: 5% 10%; /* desktop 15% */
 		text-align: right;
 		width: 80%; /* added for responsive design */
 	}
@@ -855,7 +855,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.projectSummary {
 		float: none;
-		width: 100%;
+		width: 60%;
 	}
 	div.projectVisual {
 		float: none;
@@ -868,14 +868,23 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		max-width: 100%;
 	}
 	div.frontEnd, div.webDesign, div.cms {
-		float: none;
-		margin: 15% 0 0 0;
-		width: 100%; /* desktop 25% */
+		float: left;
+		text-align: center;
+		width: 30%; /* desktop 25% */
 	}
+div.frontEnd {
+	margin: 5% 0 0 0;
+}
+div.webDesign {
+	margin: 8% 5% 0 5%;
+}
+div.cms {
+	margin: 5% 0 0 0;
+}
 	div.emailContact {
 		float: none;
 		margin-bottom: 4em;
-		width: 100%;
+		width: 60%;
 	}
 	div.location {
 		float: none;
