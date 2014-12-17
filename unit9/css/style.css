@@ -85,7 +85,7 @@ header#pageHeader {
 main {
 	background: rgba(249,249,249,1);
 	display: block;
-	margin-top: 60px;
+	margin-top: 3.75em; /* 60px responsive design */
 	width: 100%;
 }
 footer#pageFooter {
@@ -101,7 +101,7 @@ section#projects, section#services, section#contact {
 }
 section#about {
 	background: rgba(249,249,249,1);
-	height: 75vh;
+	height: 70vh;
 	padding: 0 15%;
 	width: 70%; /* added for responsive design */
 }
@@ -125,7 +125,7 @@ nav#stickyPageNav {
 	background: rgba(249,249,249,1);
 	border-top: 3px solid rgba(51,51,51,1);
 	display: block;
-	height: 60px;
+	height: 3.75em; /* 60px responsive design */
 	left: 0;
 	margin: 0;
 	/* overflow: hidden; */
@@ -146,7 +146,7 @@ ul#pageMenu {
 }
 ul#pageMenu a {
 	display: block;
-	line-height: 60px;
+	line-height: 3.75em; /* 60px responsive design */
 	padding: 0 30px;
 }
 li.pageLogo a {
@@ -192,7 +192,7 @@ nav#stickyPageNavResponsive {
 	background: rgba(249,249,249,1);
 	border-top: 3px solid rgba(51,51,51,1);
 	display: block;
-	height: 60px;
+	height: 3.75em; /* 60px responsive design */
 	left: 0;
 	margin: 0;
 	position: fixed;
@@ -202,7 +202,7 @@ nav#stickyPageNavResponsive {
 	z-index: 999999;
 }
 div.navMobile {
-	line-height: 60px;
+	line-height: 3.75em; /* 60px responsive design */
 }
 div.mobileLogo {
 	float: left;
@@ -312,7 +312,7 @@ li.pageMenuCloseMobile a:active, li.pageMenuCloseMobile a:hover {
 /* End of Header content*/
 /* Main Content */
 div.aboutProfile {
-	padding-top: 200px;
+	padding: 200px 0;
 	width: 35%;
 }
 p.quote {
@@ -520,13 +520,14 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		width: 80%;
 	}
 	div.aboutProfile {
-		padding-top: 200px;
+		padding: 10% 0 0 0; /* desktop 200px 0 */
 		width: 100%; /* desktop 35% */
 	}
 	blockquote {
-		padding: 5% 10%; /* desktop 1% 15% */
+		background: rgba(249,249,249,1);
+		padding: 1% 10%; /* desktop 15% */
 		text-align: center;
-		width: 80%; 
+		width: 80%; /* added for responsive design */
 	}
 	footer#pageFooter {
 		height: 4em; /* desktop 2em */
