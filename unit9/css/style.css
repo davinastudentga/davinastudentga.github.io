@@ -93,6 +93,11 @@ footer#pageFooter {
 	display: block;
 	height: 2em;
 	padding: 0 15%;
+	/* position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%); */
 	width: 70%; /* added for responsive design */
 }
 section#projects, section#services, section#contact {
@@ -142,6 +147,8 @@ ul#pageMenu {
 	padding: 0 4%;
 	position: relative;
 	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 ul#pageMenu a {
@@ -448,6 +455,8 @@ ul#copyrightCredits {
 	margin: 0;
 	position: relative;
 	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 li.copyrightLeft {
