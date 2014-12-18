@@ -508,9 +508,9 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	height: 0;
 }
 /* End of clear float */
-/* RESPONSIVE DESIGN - @media queries for 240 x 320 | 320 x 480 | 480 x 768 | 768 x 1024 */
+/* RESPONSIVE DESIGN - @media queries for 240 x 319 | 320 x 479 | 480 x 639 | 640 x 767 | 768 x 959 | 960 x 1023 | 1024 x 1223 */
 /* Responsive: PORTRAIT small smartphones */
-@media only screen and (min-width: 240px) and (max-width: 320px) {
+@media only screen and (min-width: 240px) and (max-width: 319px) {
 	body {
 		font-size: .8125em; /* desktop 16px to small smartphone 13px */
 	}
@@ -587,7 +587,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 }
 /* Responsive: PORTRAIT smartphones */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 479px){
 	body {
 		font-size: .875em; /* desktop 16px to smartphone 14px */
 	}
@@ -613,7 +613,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 15% 10%; /* desktop 15% */
+		padding: 15% 10% 5% 10%; /* desktop 15% */
 		text-align: center;
 		width: 80%; /* added for responsive design */
 	}
@@ -664,7 +664,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 }
 /* Responsive: LANDSCAPE smartphones + PORTRAIT tablets */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 639px) {
 	body {
 		font-size: .875em; /* desktop 16px to smartphone/tablets 14px */
 	}
@@ -690,7 +690,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 15% 10%; /* desktop 15% */
+		padding: 15% 10% 5% 10%; /* desktop 15% */
 		text-align: center;
 		width: 80%; /* added for responsive design */
 	}
@@ -741,7 +741,85 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 }
 /* Responsive: PORTRAIT tablets */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	body {
+		font-size: .875em; /* desktop 16px to tablets 14px */
+	}
+	nav#stickyPageNav {
+		display: none;
+		visibility: hidden;
+	}
+	nav#stickyPageNavResponsive {
+		visibility: visible;
+	}
+	section#projects, section#services, section#contact {
+		padding: 15% 7.5%; /* desktop 10% 15% */
+		width: 85%;
+	}
+	section#about {
+		height: auto; /* desktop 70vh */
+		padding: 7.5%; /* desktop 15% */
+		width: 85%;
+	}
+	div.aboutProfile {
+		padding: 10% 0 0 0; /* desktop 200px 0 */
+		width: 70%; /* desktop 35% */
+	}
+	blockquote {
+		background: rgba(249,249,249,1);
+		padding: 15% 7.5% 2.5% 7.5%; /* desktop 15% */
+		text-align: right;
+		width: 85%; /* added for responsive design */
+	}
+	footer#pageFooter {
+		height: 2em; /* desktop 2em */
+		padding: 0 7.5%; /* desktop 15% */
+		width: 85%;
+	}
+	div.projectSummary {
+		float: left;
+		margin-bottom: 7.5%;
+		width: 50%; /* desktop 30% */
+	}
+	div.projectVisual {
+		float: left;
+		margin: 0; /* desktop 0 15% 150px 0 */
+		text-align: center;
+		max-width: 50%;
+	}
+	div.projectGallery {
+		padding: 0;
+		max-width: 100%;
+	}
+	div.frontEnd, div.webDesign, div.cms {
+		float: none;
+		margin: 10% 10% 0 10%;
+		width: 80%; /* desktop 25% */
+	}
+	div.emailContact {
+		float: left;
+		margin-bottom: 0;
+		width: 60%;
+	}
+	div.location {
+		float: left;
+		width: 40%;
+	}
+	li.copyrightLeft {
+		float: left;
+		text-align: none;
+	}
+	li.creditsRight {
+		float: right;
+		text-align: none;
+	}
+	div.button {
+		display: none;
+		visibility: hidden;
+	}
+}
+/* Responsive: PORTRAIT tablets */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
 	body {
 		font-size: .9375em; /* desktop 16px to tablets 15px */
 	}
@@ -753,13 +831,13 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		visibility: visible;
 	}
 	section#projects, section#services, section#contact {
-		padding: 15% 10%; /* desktop 10% 15% */
-		width: 80%;
+		padding: 15% 7.5%; /* desktop 10% 15% */
+		width: 85%;
 	}
 	section#about {
 		height: auto; /* desktop 70vh */
-		padding: 10%; /* desktop 15% */
-		width: 80%;
+		padding: 7.5%; /* desktop 15% */
+		width: 85%;
 	}
 	div.aboutProfile {
 		padding: 10% 0 0 0; /* desktop 200px 0 */
@@ -767,24 +845,25 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
-		padding: 15% 10%; /* desktop 15% */
+		padding: 15% 7.5% 2.5% 7.5%; /* desktop 15% */
 		text-align: right;
-		width: 80%; /* added for responsive design */
+		width: 85%; /* added for responsive design */
 	}
 	footer#pageFooter {
 		height: 2em; /* desktop 2em */
-		padding: 0 10%; /* desktop 15% */
-		width: 80%;
+		padding: 0 7.5%; /* desktop 15% */
+		width: 85%;
 	}
 	div.projectSummary {
-		float: none;
-		width: 60%; /* desktop 30% */
+		float: left;
+		margin-bottom: 7.5%;
+		width: 50%; /* desktop 30% */
 	}
 	div.projectVisual {
-		float: none;
-		margin: 15% 0; /* desktop 0 15% 150px 0 */
+		float: left;
+		margin: 0; /* desktop 0 15% 150px 0 */
 		text-align: center;
-		max-width: 100%;
+		max-width: 50%;
 	}
 	div.projectGallery {
 		padding: 0;
@@ -792,17 +871,105 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.frontEnd, div.webDesign, div.cms {
 		float: none;
-		margin: 15% 10% 0 10%;
+		margin: 10% 10% 0 10%;
 		width: 80%; /* desktop 25% */
 	}
 	div.emailContact {
-		float: none;
-		margin-bottom: 4em;
+		float: left;
+		margin-bottom: 0;
 		width: 60%;
 	}
 	div.location {
-		float: none;
-		width: 100%;
+		float: left;
+		width: 40%;
+	}
+	li.copyrightLeft {
+		float: left;
+		text-align: none;
+	}
+	li.creditsRight {
+		float: right;
+		text-align: none;
+	}
+	div.button {
+		display: none;
+		visibility: hidden;
+	}
+}
+/* Responsive: PORTRAIT tablets */
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	body {
+		font-size: .9375em; /* desktop 16px to tablets 15px */
+	}
+	nav#stickyPageNav {
+		display: none;
+		visibility: hidden;
+	}
+	nav#stickyPageNavResponsive {
+		visibility: visible;
+	}
+	section#projects, section#services, section#contact {
+		padding: 15% 7.5%; /* desktop 10% 15% */
+		width: 85%;
+	}
+	section#about {
+		height: auto; /* desktop 70vh */
+		padding: 7.5%; /* desktop 15% */
+		width: 85%;
+	}
+	div.aboutProfile {
+		padding: 10% 0 0 0; /* desktop 200px 0 */
+		width: 55%; /* desktop 35% */
+	}
+	blockquote {
+		background: rgba(249,249,249,1);
+		padding: 15% 7.5% 2.5% 7.5%; /* desktop 15% */
+		text-align: right;
+		width: 85%; /* added for responsive design */
+	}
+	footer#pageFooter {
+		height: 2em; /* desktop 2em */
+		padding: 0 7.5%; /* desktop 15% */
+		width: 85%;
+	}
+	div.projectSummary {
+		float: left;
+		margin-bottom: 7.5%;
+		width: 40%; /* desktop 30% */
+	}
+	div.projectVisual {
+		float: left;
+		margin: 0; /* desktop 0 15% 150px 0 */
+		text-align: center;
+		max-width: 60%;
+	}
+	div.projectGallery {
+		padding: 0;
+		max-width: 100%;
+	}
+	div.frontEnd, div.webDesign, div.cms {
+		float: left;
+		margin: 0;
+		text-align: center;
+		width: 32%; /* desktop 25% */
+	}
+	div.frontEnd {
+		margin: 5% 0 0 0;
+	}
+	div.webDesign {
+		margin: 5% 2% 0 2%;
+	}
+	div.cms {
+		margin: 5% 0 0 0;
+	}
+	div.emailContact {
+		float: left;
+		margin-bottom: 0;
+		width: 60%;
+	}
+	div.location {
+		float: left;
+		width: 40%;
 	}
 	li.copyrightLeft {
 		float: left;
@@ -818,7 +985,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 }
 /* Responsive: LANDSCAPE tablets */
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1223px) {
 	body {
 		font-size: .9375em; /* desktop 16px to tablets 15px */
 	}
@@ -840,7 +1007,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.aboutProfile {
 		padding: 5% 0 0 0; /* desktop 200px 0 */
-		width: 55%; /* desktop 35% */
+		width: 45%; /* desktop 35% */
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
@@ -854,14 +1021,15 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		width: 80%;
 	}
 	div.projectSummary {
-		float: none;
-		width: 60%;
+		float: left;
+		margin-bottom: 7.5%;
+		width: 45%;
 	}
 	div.projectVisual {
-		float: none;
-		margin: 7.5% 0; /* desktop 0 15% 150px 0 */
+		float: left;
+		margin: 0; /* desktop 0 15% 150px 0 */
 		text-align: center;
-		max-width: 100%;
+		max-width: 55%;
 	}
 	div.projectGallery {
 		padding: 0;
@@ -882,13 +1050,13 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		margin: 5% 0 0 0;
 	}
 	div.emailContact {
-		float: none;
-		margin-bottom: 4em;
-		width: 60%;
+		float: left;
+		margin-bottom: 0;
+		width: 65%;
 	}
 	div.location {
-		float: none;
-		width: 100%;
+		float: left;
+		width: 35%;
 	}
 	li.copyrightLeft {
 		float: left;
