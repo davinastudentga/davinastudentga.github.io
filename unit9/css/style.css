@@ -841,7 +841,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	}
 	div.aboutProfile {
 		padding: 10% 0 0 0; /* desktop 200px 0 */
-		width: 70%; /* desktop 35% */
+		width: 60%; /* desktop 35% */
 	}
 	blockquote {
 		background: rgba(249,249,249,1);
