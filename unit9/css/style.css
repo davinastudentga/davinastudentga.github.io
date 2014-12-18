@@ -1001,17 +1001,12 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		width: 80%;
 	}
 	section#about {
-		height: 80vh; /* desktop 70vh */
-		padding: 10%; /* desktop 15% */
+		height: auto; /* desktop 70vh */
+		padding: 10% 10%; /* desktop 15% */
 		width: 80%;
 	}
 	div.aboutProfile {
-		padding: 0 0 0 0; /* desktop 200px 0 */
-		position: relative;
-		top: 50%;
-		-ms-transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-		transform: translateY(-50%);
+		padding: 0; /* desktop 200px 0 */
 		width: 45%; /* desktop 35% */
 	}
 	blockquote {
@@ -1093,17 +1088,12 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		width: 80%;
 	}
 	section#about {
-		height: 70vh; /* desktop 70vh */
-		padding: 0 10%; /* desktop 15% */
+		height: auto; /* desktop 70vh */
+		padding: 10% 10%; /* desktop 15% */
 		width: 80%;
 	}
 	div.aboutProfile {
 		padding: 0 0 0 0; /* desktop 200px 0 */
-		position: relative;
-		top: 50%;
-		-ms-transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-		transform: translateY(-50%);
 		width: 35%; /* desktop 35% */
 	}
 	blockquote {
