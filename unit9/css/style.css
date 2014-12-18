@@ -114,7 +114,7 @@ section#projects, section#services {
 	background: rgba(255,255,255,1);
 }
 section#projects {	
-	border-bottom: medium solid rgba(249,249,249,1);
+	/* border-bottom: medium solid rgba(249,249,249,1); */
 }
 section#contact {
 	background: rgba(249,249,249,1);
@@ -344,7 +344,7 @@ p.quote a:active, p.quote a:hover {
 div.projectSummary {
 	background: rgba(255,255,255,1);
 	float: left;
-	width: 30%;
+	width: 40%;
 }
 ul.projectInfo {
 	display: block;
@@ -355,18 +355,18 @@ ul.projectInfo {
 div.projectVisual {
 	color: rgba(51,51,51,1);
 	float: left;
-	margin-bottom: 150px;
-	margin-left: 15%;
+	margin: 0 0 5% 0;
 	text-align: center;
-	max-width: 55%; /* max- respoonsive design */
+	max-width: 60%; /* max- respoonsive design */
 }
 div.projectGallery {
 	background: rgba(255,255,255,1);
-	border-bottom: thin solid rgba(140,140,140,1);
+	border: thin solid rgba(140,140,140,1);
+	clear: both;
 	color: rgba(51,51,51,1);
-	padding: 5%;
+	padding: 0;
 	text-align: center;
-	max-width: 90%; /* max- responsive design */
+	max-width: 100%; /* max- responsive design */
 }
 img.appleResponsiveProject {
 	/* max-width: 600px; responsive design */
@@ -779,13 +779,13 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	div.projectSummary {
 		float: left;
 		margin-bottom: 7.5%;
-		width: 50%; /* desktop 30% */
+		width: 40%; /* desktop 30% */
 	}
 	div.projectVisual {
 		float: left;
 		margin: 0; /* desktop 0 15% 150px 0 */
 		text-align: center;
-		max-width: 50%;
+		max-width: 60%;
 	}
 	div.projectGallery {
 		padding: 0;
@@ -857,13 +857,13 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	div.projectSummary {
 		float: left;
 		margin-bottom: 7.5%;
-		width: 50%; /* desktop 30% */
+		width: 40%; /* desktop 30% */
 	}
 	div.projectVisual {
 		float: left;
 		margin: 0; /* desktop 0 15% 150px 0 */
 		text-align: center;
-		max-width: 50%;
+		max-width: 60%;
 	}
 	div.projectGallery {
 		padding: 0;
