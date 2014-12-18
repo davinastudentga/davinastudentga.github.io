@@ -222,8 +222,10 @@ div.hamburgerIcon {
 div.dropDownMenu {
 	background: rgba(249,249,249,1);
 	display: none;
-	height: auto;
+	height: 100%;
+	left: 0;
 	position: absolute;
+	top: 0;
 	width: 100%;
 }
 .expand {
