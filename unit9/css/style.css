@@ -35,7 +35,7 @@ h1 {
 h2 {
 	color: rgba(51,51,51,1);
 	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: 1.62em; /* 25px responsive design > 25.92px */
+	font-size: 1.5625em; /* 25px responsive design */
 	font-style: italic;
 	line-height: 1.62em;
 	margin-bottom: 10px;
@@ -52,7 +52,7 @@ h2 a:active, h2 a:hover {
 	color: rgba(51,51,51,1);
 }
 h3 {
-	font-size: 1.15em; /* 18px responsive design > 18.4px */
+	font-size: 1.125em; /* 18px responsive design */
 	font-weight: bold;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -60,7 +60,7 @@ h3 {
 h4 {
 	color: rgba(51,51,51,1);
 	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: .95em; /* 15px responsive design > 15.2px */
+	font-size: .9375em; /* 15px responsive design */
 	font-weight: lighter;
 	line-height: 1.62em;
 }
@@ -73,7 +73,7 @@ em {
 hr {
 	border: thin solid rgba(51,51,51,1);
 	margin: 15px 0;
-	width: 1.25em; /* 20px responsive design > 20px */
+	width: 1.25em; /* 20px responsive design  */
 }
 header#pageHeader {
 	background: rgba(249,249,249,1);
@@ -93,11 +93,6 @@ footer#pageFooter {
 	display: block;
 	height: 2em;
 	padding: 0 15%;
-	/* position: relative;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%); */
 	width: 70%; /* added for responsive design */
 }
 section#projects, section#services, section#contact {
@@ -112,9 +107,6 @@ section#about {
 }
 section#projects, section#services {	
 	background: rgba(255,255,255,1);
-}
-section#projects {	
-	/* border-bottom: medium solid rgba(249,249,249,1); */
 }
 section#contact {
 	background: rgba(249,249,249,1);
@@ -133,7 +125,6 @@ nav#stickyPageNav {
 	height: 3.75em; /* 60px responsive design */
 	left: 0;
 	margin: 0;
-	/* overflow: hidden; */
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -191,9 +182,6 @@ img.logoImg {
 	vertical-align: middle;
 	width: 9.375em; /* 150px responsive design */
 }
-
-
-
 /* Mobile navigation */
 nav#stickyPageNavResponsive {
 	background: rgba(249,249,249,1);
@@ -248,16 +236,10 @@ ul#pageMenuMobile {
 	display: block;
 	list-style-type: none;
 	margin: 0;
-	/* overflow: hidden; responsive design */
 	padding: 0; /* desktop navigation 0 4% */
-	/* position: relative;
-	top: 50%;
-	transform: translateY(-50%); responsive design */
 }
 ul#pageMenuMobile a {
 	display: block;
-	/* line-height: 60px;
-	padding: 0 30px; responsive design */
 }
 li.pageMenuContactMobile a, li.pageMenuContactMobile a:link, li.pageMenuContactMobile a:visited {
 	background: rgba(51,51,51,1);
@@ -316,9 +298,6 @@ li.pageMenuCloseMobile a:active, li.pageMenuCloseMobile a:hover {
 	text-decoration: none;
 }
 /* End Mobile navigation */
-
-
-
 /* End of Header content*/
 /* Main Content */
 div.aboutProfile {
@@ -328,7 +307,7 @@ div.aboutProfile {
 p.quote {
 	color: rgba(51,51,51,1);
 	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: 1.62em; /* 25px responsive design > 25.92px */
+	font-size: 1.5625em; /* 25px responsive design > 25.92px */
 	font-style: italic;
 	line-height: 1.62em;
 	margin-bottom: 10px;
@@ -372,17 +351,15 @@ div.projectGallery {
 	max-width: 100%; /* max- responsive design */
 }
 img.appleResponsiveProject {
-	/* max-width: 600px; responsive design */
-	width: 100%;
+	width: 100%; /* max-width: 600px; responsive design */
 }
 img.projectGalleryVisual {
-	/* max-width: 1000px; responsive design */
-	width: 100%;
+	width: 100%; /* max-width: 1000px; responsive design */
 }
 p.projectDetails {
 	color: rgba(140,140,140,1);
 	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: .95em; /* 15px responsive design > 15.2px */
+	font-size: .9375em; /* 15px responsive design */
 	font-style: italic;
 	font-weight: lighter;
 	line-height: 1.62em;
@@ -413,7 +390,7 @@ li.skills {
 }
 p.skillDescription {
 	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: .95em; /* 15px responsive design > 15.2px */
+	font-size: .9375em; /* 15px responsive design */
 	font-weight: lighter;
 	line-height: 1.62em;
 }
@@ -452,7 +429,7 @@ p.aContact a:active, p.aContact a:hover {
 ul#copyrightCredits {
 	color: rgba(140,140,140,1);
 	font-family: 'Times New Roman', Times, Georgia, serif;
-	font-size: .875em; /* 14px responsive design > 14px */
+	font-size: .875em; /* 14px responsive design */
 	font-weight: lighter;
 	list-style-type: none;
 	margin: 0;
@@ -493,7 +470,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 	color: rgba(255,255,255,1);
 	display: block;
 	font-family: futura, sans-serif;
-	font-size: 1.25em; /* 20px responsive design > 20px */
+	font-size: 1.25em; /* 20px responsive design */
 	padding: 8px 15px;
 	text-decoration: none;
 } 
