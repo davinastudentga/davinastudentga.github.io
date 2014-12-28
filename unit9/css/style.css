@@ -343,17 +343,20 @@ div.projectVisual {
 }
 div.projectGallery {
 	background: rgba(255,255,255,1);
-	border: thin solid rgba(140,140,140,1);
+	/* border: thin solid rgba(140,140,140,1); */
 	clear: both;
 	color: rgba(51,51,51,1);
-	max-width: 100%; /* max- responsive design */
+	margin: 5% 15%;
+	max-width: 70%; /* max- responsive design */
 	padding: 0;
 	text-align: center;
 }
 img.appleResponsiveProject {
+	visibility: visible;
 	width: 100%; /* max-width: 600px; responsive design */
 }
 img.projectGalleryVisual {
+	visibility: visible;
 	width: 100%; /* max-width: 1000px; responsive design */
 }
 p.projectDetails {
@@ -536,6 +539,7 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		text-align: center;
 	}
 	div.projectGallery {
+		margin: 0;
 		max-width: 100%;
 		padding: 0;
 	}
@@ -613,8 +617,9 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		text-align: center;
 	}
 	div.projectGallery {
-		padding: 0;
+		margin: 0;
 		max-width: 100%;
+		padding: 0;
 	}
 	div.frontEnd, div.webDesign, div.cms {
 		float: none;
@@ -690,8 +695,9 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		text-align: center;
 	}
 	div.projectGallery {
-		padding: 0;
+		margin: 0;
 		max-width: 100%;
+		padding: 0;
 	}
 	div.frontEnd, div.webDesign, div.cms {
 		float: none;
@@ -766,8 +772,9 @@ a.backToTop, .backToTop, .backToTop:link, .backTopTop:visited {
 		text-align: center;
 	}
 	div.projectGallery {
-		padding: 0;
+		margin: 0;
 		max-width: 100%;
+		padding: 0;
 	}
 	div.frontEnd, div.webDesign, div.cms {
 		float: none;
