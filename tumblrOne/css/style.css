@@ -1,0 +1,95 @@
+/* Reset code */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* End of reset code */
+body {
+	background: rgba(249,249,249,1);
+	font-family: "Courier New", "Lucida Console", Georgia, Baskerville, "Times New Roman", Arial, Helvetica;
+	font-size: 1em;
+	height: 5000px;
+	left: 0;
+	margin: 0;
+	overflow-x: hidden;
+	position: relative;
+	top: 0;
+}
+header {
+	position: fixed;
+	z-index: 1;
+}
+main {
+	background-color: rgba(255,255,255,1);
+	height: 2000px;
+	margin: auto;
+	width: 70%;
+}
+nav {
+	margin: 0;
+	padding: 0;
+}
+p.installThemeButton {
+	border: 1px solid rgba(241,241,241,1);
+	padding: 5px;
+}
+a {
+	color: rgba(0,0,0,1);
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: none;
+}
+a:hover {
+	color: rgba(0,0,0,1);
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+img.imgOriginalSize {
+	width: 100%;
+}
+strong {
+	font-weight: bold;
+}
+div.hamburgerToggleButton {
+	background-color: rgba(255,255,255,1);
+	cursor: pointer;
+	height: auto;
+	padding: 5px 10px;
+	width: 50px;
+}
+div.sideMenu {
+	background-color: rgba(255,255,255,1);
+	height: 100%;
+	left: -300px; /* hidden menu on the left until click on hamburger button */
+	overflow-y: scroll;
+	padding: 1em 2em;
+	position: fixed;
+	top: 0;
+	width: 300px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	padding-bottom: 1em;
+}
+li a {
+	border-bottom: none;
+	color: rgba(0,0,0,1);
+	font-weight: bold;
+	padding-bottom: .5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+li a:hover {
+	border-bottom: 3px solid rgba(0,0,0,1);
+	color: rgba(0,0,0,1);
+	font-weight: bold;
+	padding-bottom: .3em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
