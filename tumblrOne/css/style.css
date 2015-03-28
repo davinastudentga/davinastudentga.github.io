@@ -57,6 +57,7 @@ div.hamburgerToggleButton {
 	cursor: pointer;
 	height: auto;
 	padding: 5px 10px;
+	position: relative;
 	width: 50px;
 }
 div.sideMenu {
